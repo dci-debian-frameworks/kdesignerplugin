@@ -4,17 +4,20 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5i18n-dev,
- libkf5coreaddons-dev, kdoctools5-dev, kdoctools5,
- libkf5guiaddons-dev, libkf5configwidgets-dev, libkf5completion-dev,
- libkf5dbusaddons-dev, libkf5service-dev, libkf5windowsystem-dev,
- libkf5xmlgui-dev, libkf5bookmarks-dev, libkf5iconthemes-dev,
- libkf5itemviews-dev, kf5-kio-dev, libkf5plotting-dev,
- libkf5textwidgets-dev, libkf5widgetsaddons-dev, libkf5webkit-dev,
- libkf5config-dev, libkf5archive-dev, kdoctools5, kdoctools5-dev,
- qttools5-dev, libqt5webkit5-dev, libkf5auth-dev, libkf5codecs-dev,
- libkf5globalaccel-dev, libkf5kjs-dev, libkf5jobwidgets-dev,
- libkf5solid-dev, libkf5sonnet-dev
+ extra-cmake-modules , qtbase5-dev, libkf5i18n-dev (>= 4.96.0),
+ libkf5coreaddons-dev (>= 4.96.0), kdoctools-dev (>= 4.96.0),
+ libkf5guiaddons-dev (>= 4.96.0), libkf5configwidgets-dev (>= 4.96.0), libkf5completion-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0),
+ libkf5service-dev (>= 4.96.0), libkf5windowsystem-dev (>= 4.96.0),
+ libkf5xmlgui-dev (>= 4.96.0), libkf5bookmarks-dev (>= 4.96.0),
+ libkf5iconthemes-dev (>= 4.96.0), libkf5itemviews-dev (>= 4.96.0),
+ kf5-kio-dev (>= 4.96.0), libkf5plotting-dev (>= 4.96.0),
+ libkf5textwidgets-dev (>= 4.96.0), libkf5widgetsaddons-dev (>= 4.96.0),
+ libkf5webkit-dev (>= 4.96.0), libkf5config-dev (>= 4.96.0),
+ libkf5archive-dev (>= 4.96.0), kdoctools-dev (>= 4.96.0),
+ qttools5-dev, libqt5webkit5-dev, libkf5auth-dev (>= 4.96.0),
+ libkf5codecs-dev (>= 4.96.0), libkf5globalaccel-dev (>= 4.96.0),
+ libkf5kjs-dev (>= 4.96.0), libkf5jobwidgets-dev (>= 4.96.0),
+ libkf5solid-dev (>= 4.96.0), libkf5sonnet-dev (>= 4.96.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
@@ -26,7 +29,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  kgendesignerplugin can be used to genrate plugins for widgets
  in Qt Designer and Qt Creator.
  
-Package: libkf5designerplugin5
+Package: libkf5designerplugin4
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
