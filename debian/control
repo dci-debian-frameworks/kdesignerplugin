@@ -29,7 +29,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  kgendesignerplugin can be used to genrate plugins for widgets
  in Qt Designer and Qt Creator.
  
-Package: libkf5designerplugin4
+Package: libkf5designerplugin5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
