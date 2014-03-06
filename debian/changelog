@@ -1,7 +1,11 @@
 kdesignerplugin (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
+
+  [ Scarlett Clark ]
+  * Added in optional depend to attica 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:17:33 +0000
 

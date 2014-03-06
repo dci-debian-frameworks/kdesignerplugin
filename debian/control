@@ -17,7 +17,8 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  qttools5-dev, libqt5webkit5-dev, libkf5auth-dev (>= 4.97.0),
  libkf5codecs-dev (>= 4.97.0), libkf5globalaccel-dev (>= 4.97.0),
  libkf5kjs-dev (>= 4.97.0), libkf5jobwidgets-dev (>= 4.97.0),
- libkf5solid-dev (>= 4.97.0), libkf5sonnet-dev (>= 4.97.0)
+ libkf5solid-dev (>= 4.97.0), libkf5sonnet-dev (>= 4.97.0),
+ libkf5attica-dev (>= 4.97.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
