@@ -1,15 +1,14 @@
 kdesignerplugin (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
-  * New upstream alpha release
   * Rename library package for soname 5
+  * New upstream beta release
+  * Add kubuntu_qtwebkit-5.1.diff to fix build with qtwebkit 5.1
+    (not updated to 5.2)
 
   [ Scarlett Clark ]
-  * Added in optional depend to attica 
-  * Fix not-installed 
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
+  * Added in optional depend to attica
+  * Fix not-installed
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:26:14 +0000
 
