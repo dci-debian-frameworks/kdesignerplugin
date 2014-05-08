@@ -1,2 +1,2 @@
-usr/lib/*/cmake/KF5DesignerPlugin/
-usr/bin/*
+usr/lib/*/cmake/KF5DesignerPlugin/*
+usr/bin/kgendesignerplugin

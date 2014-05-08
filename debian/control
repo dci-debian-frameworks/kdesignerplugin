@@ -18,7 +18,8 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5codecs-dev (>= 4.99.0), libkf5globalaccel-dev (>= 4.99.0),
  libkf5kjs-dev (>= 4.99.0), libkf5jobwidgets-dev (>= 4.99.0),
  libkf5solid-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5attica-dev (>= 4.99.0)
+ libkf5attica-dev (>= 4.99.0),
+ qttools5-dev, qttools5-dev-tools, qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
@@ -29,16 +30,35 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Integration of KF5 widgets in Qt Designer/Creator
  kgendesignerplugin can be used to genrate plugins for widgets
  in Qt Designer and Qt Creator.
+ .
+ Part of KDE Frameworks.
  
-Package: libkf5designerplugin5
+Package: kdesignerplugin
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ kdesignerplugin-data (= ${binary:Version})
 Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
  it to display the widgets provided by various KDE Frameworks,
  as well as a utility kgendesignerplugin which can be used
  to generate other such plugins from ini-style description files. 
+ .
+ Part of KDE Frameworks.
+
+Package: kdesignerplugin-data
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Integration of KF5 widgets in Qt Designer/Creator
+ This framework provides plugins for Qt Designer that allow
+ it to display the widgets provided by various KDE Frameworks,
+ as well as a utility kgendesignerplugin which can be used
+ to generate other such plugins from ini-style description files.
+ .
+ Part of KDE Frameworks.
+ .
+ This package contains images and translations.
 
 Package: kdesignerplugin-dbg
 Priority: extra
@@ -50,5 +70,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  it to display the widgets provided by various KDE Frameworks,
  as well as a utility kgendesignerplugin which can be used
  to generate other such plugins from ini-style description files. 
+ .
+ Part of KDE Frameworks.
  .
  Contains debug symbols for kdesignerplugin.
