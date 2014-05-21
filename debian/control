@@ -46,7 +46,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 Package: kdesignerplugin
 Section: libdevel
 Architecture: any
-Depends: kdesignerplugin-data (= ${binary:Version}),
+Depends: kdesignerplugin-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Integration of KF5 widgets in Qt Designer/Creator
@@ -59,8 +59,8 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
 Multi-Arch: same
 
 Package: kdesignerplugin-data
-Architecture: any
-Multi-Arch: same
+Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
