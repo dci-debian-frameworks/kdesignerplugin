@@ -3,53 +3,65 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules , qtbase5-dev, libkf5i18n-dev (>= 4.99.0),
- libkf5coreaddons-dev (>= 4.99.0), kdoctools-dev (>= 4.99.0),
- libkf5guiaddons-dev (>= 4.99.0), libkf5configwidgets-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5service-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5bookmarks-dev (>= 4.99.0),
- libkf5iconthemes-dev (>= 4.99.0), libkf5itemviews-dev (>= 4.99.0),
- kf5-kio-dev (>= 4.99.0), libkf5plotting-dev (>= 4.99.0),
- libkf5textwidgets-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
- libkf5webkit-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),
- libkf5archive-dev (>= 4.99.0), kdoctools-dev (>= 4.99.0),
- qttools5-dev, libqt5webkit5-dev, libkf5auth-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libkf5globalaccel-dev (>= 4.99.0),
- libkf5kjs-dev (>= 4.99.0), libkf5jobwidgets-dev (>= 4.99.0),
- libkf5solid-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5attica-dev (>= 4.99.0),
- qttools5-dev, qttools5-dev-tools, qt5-default
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               kdoctools-dev (>= 4.99.0),
+               kf5-kio-dev (>= 4.99.0),
+               libkf5archive-dev (>= 4.99.0),
+               libkf5attica-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5plotting-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5solid-dev (>= 4.99.0),
+               libkf5sonnet-dev (>= 4.99.0),
+               libkf5textwidgets-dev (>= 4.99.0),
+               libkf5webkit-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               libkf5xmlgui-dev (>= 4.99.0),
+               libqt5webkit5-dev,
+               pkg-kde-tools,
+               qt5-default,
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
-Package: kgendesignerplugin
+Package: kdesignerplugin
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Integration of KF5 widgets in Qt Designer/Creator
- kgendesignerplugin can be used to genrate plugins for widgets
- in Qt Designer and Qt Creator.
- .
- Part of KDE Frameworks.
- 
-Package: kdesignerplugin
-Architecture: any
-Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends},
- kdesignerplugin-data (= ${binary:Version})
+Depends: kdesignerplugin-data (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
  it to display the widgets provided by various KDE Frameworks,
  as well as a utility kgendesignerplugin which can be used
- to generate other such plugins from ini-style description files. 
+ to generate other such plugins from ini-style description files.
  .
  Part of KDE Frameworks.
+Multi-Arch: same
 
 Package: kdesignerplugin-data
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
  it to display the widgets provided by various KDE Frameworks,
@@ -69,7 +81,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
  it to display the widgets provided by various KDE Frameworks,
  as well as a utility kgendesignerplugin which can be used
- to generate other such plugins from ini-style description files. 
+ to generate other such plugins from ini-style description files.
  .
  Part of KDE Frameworks.
  .
