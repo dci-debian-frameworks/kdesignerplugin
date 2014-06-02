@@ -43,6 +43,18 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
+Package: kgendesignerplugin
+Section: libdevel
+Architecture: any
+Depends: kdesignerplugin-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Integration of KF5 widgets in Qt Designer/Creator
+ kgendesignerplugin can be used to genrate plugins for widgets
+ in Qt Designer and Qt Creator.
+ .
+ Part of KDE Frameworks.
+
 Package: kdesignerplugin
 Section: libdevel
 Architecture: any
