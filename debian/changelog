@@ -8,7 +8,7 @@ kdesignerplugin (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+  * Add xvfb for display tests
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:37:26 +0100
 
