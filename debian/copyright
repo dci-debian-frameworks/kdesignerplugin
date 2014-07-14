@@ -3,12 +3,10 @@ Upstream-Name: kdesignerplugin
 Source: https://projects.kde.org/projects/frameworks/kdesignerplugin
 
 Files: *
-       debian/*
 Copyright: © 2006-2009 Alexander Neundorf <neundorf@kde.org>
            © 2004-2005 ian reinhart geiser <geiseri@sourcextreme.com>
            © 2006-2007 Laurent Montel <montel@kde.org>
            © 2007 Matthias Kretz <kretz@kde.org>
-           2014 Scarlett Clark <sgclark@kubuntu.org>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -23,3 +21,22 @@ License: LGPL-2.1+
  You should have received a copy of the GNU Lesser General Public
  License along with this library; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
