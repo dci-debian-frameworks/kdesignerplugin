@@ -2,6 +2,7 @@ kdesignerplugin (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Update copyright to match licensing to source 
   * New upstream release
+  * Fix copyright file lintain error. 
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:45:37 -0700
 
