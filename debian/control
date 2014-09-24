@@ -43,8 +43,8 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdesignerplugin
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdesignerplugin
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdesignerplugin.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdesignerplugin.git
 
 Package: kgendesignerplugin
 Section: libdevel
