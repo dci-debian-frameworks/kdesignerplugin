@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev-tools,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdesignerplugin.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdesignerplugin.git
