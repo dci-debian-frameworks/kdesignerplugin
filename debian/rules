@@ -9,4 +9,4 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=kdesignerplugin-dbg
 
 override_dh_auto_test:
-	xvfb-run -a $(overridden_command) 
+	xvfb-run -a $(overridden_command)
