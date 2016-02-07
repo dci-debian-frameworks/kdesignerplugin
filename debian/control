@@ -71,18 +71,3 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  Part of KDE Frameworks.
  .
  This package contains images and translations.
-
-Package: kdesignerplugin-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: kgendesignerplugin (= ${binary:Version}), ${misc:Depends}
-Description: Integration of KF5 widgets in Qt Designer/Creator
- This framework provides plugins for Qt Designer that allow
- it to display the widgets provided by various KDE Frameworks,
- as well as a utility kgendesignerplugin which can be used
- to generate other such plugins from ini-style description files.
- .
- Part of KDE Frameworks.
- .
- Contains debug symbols for kdesignerplugin.
