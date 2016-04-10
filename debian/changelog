@@ -1,10 +1,21 @@
-kdesignerplugin (5.20.0-1~1.gbpf5f241) UNRELEASED; urgency=medium
+kdesignerplugin (5.21.0-1~1.gbpbbd864) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @bbd864f744d0fec288e4dd5490a29b1c9fe312ac **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @f5f24137489b6ee0cb8bdbbee53b8bbe16a0b968 **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 30 Mar 2016 11:00:41 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:00:09 +0200
 
 kdesignerplugin (5.19.0-1) experimental; urgency=medium
 
