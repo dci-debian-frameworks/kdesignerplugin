@@ -1,3 +1,11 @@
+kdesignerplugin (5.20.0-1~1.gbpf5f241) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f5f24137489b6ee0cb8bdbbee53b8bbe16a0b968 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 30 Mar 2016 11:00:41 +0200
+
 kdesignerplugin (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
