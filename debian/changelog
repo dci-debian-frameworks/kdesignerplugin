@@ -1,6 +1,8 @@
 kdesignerplugin (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, xenial backport. 
+  * Bump kf5 devel depends version
+  * Fix typo in control desc.  
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 16:08:20 -0700
 
