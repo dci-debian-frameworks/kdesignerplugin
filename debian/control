@@ -5,21 +5,21 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kdoctools-dev (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
-               libkf5completion-dev (>= 5.18.0~),
-               libkf5config-dev (>= 5.18.0~),
-               libkf5configwidgets-dev (>= 5.18.0~),
-               libkf5coreaddons-dev (>= 5.18.0~),
-               libkf5iconthemes-dev (>= 5.18.0~),
-               libkf5itemviews-dev (>= 5.18.0~),
-               libkf5plotting-dev (>= 5.18.0~),
-               libkf5sonnet-dev (>= 5.18.0~),
-               libkf5textwidgets-dev (>= 5.18.0~),
-               libkf5webkit-dev (>= 5.18.0~),
-               libkf5widgetsaddons-dev (>= 5.18.0~),
-               libkf5xmlgui-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kdoctools-dev (>= 5.19.0~),
+               kio-dev (>= 5.19.0~),
+               libkf5completion-dev (>= 5.19.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5configwidgets-dev (>= 5.19.0~),
+               libkf5coreaddons-dev (>= 5.19.0~),
+               libkf5iconthemes-dev (>= 5.19.0~),
+               libkf5itemviews-dev (>= 5.19.0~),
+               libkf5plotting-dev (>= 5.19.0~),
+               libkf5sonnet-dev (>= 5.19.0~),
+               libkf5textwidgets-dev (>= 5.19.0~),
+               libkf5webkit-dev (>= 5.19.0~),
+               libkf5widgetsaddons-dev (>= 5.19.0~),
+               libkf5xmlgui-dev (>= 5.19.0~),
                libqt5webkit5-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
@@ -29,8 +29,8 @@ Build-Depends: cmake (>= 2.8.12),
                xvfb
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdesignerplugin.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdesignerplugin.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesignerplugin.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesignerplugin.git
 
 Package: kgendesignerplugin
 Section: libdevel
@@ -71,18 +71,3 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  Part of KDE Frameworks.
  .
  This package contains images and translations.
-
-Package: kdesignerplugin-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: kgendesignerplugin (= ${binary:Version}), ${misc:Depends}
-Description: Integration of KF5 widgets in Qt Designer/Creator
- This framework provides plugins for Qt Designer that allow
- it to display the widgets provided by various KDE Frameworks,
- as well as a utility kgendesignerplugin which can be used
- to generate other such plugins from ini-style description files.
- .
- Part of KDE Frameworks.
- .
- Contains debug symbols for kdesignerplugin.
