@@ -1,23 +1,13 @@
-kdesignerplugin (5.22.0-1~1.gbp89b232) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @89b2325edee908e5e43b21f9d41d31709aa9b572 **
+kdesignerplugin (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @f5f24137489b6ee0cb8bdbbee53b8bbe16a0b968 **
-
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
-  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
 
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:00:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 10:55:36 +0200
 
 kdesignerplugin (5.19.0-1) experimental; urgency=medium
 
