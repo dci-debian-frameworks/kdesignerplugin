@@ -1,3 +1,11 @@
+kdesignerplugin (5.24.0-1~1.gbpad17fc) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ad17fc585a3f5444e09425d5a4a1d1cf8d606891 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:00:13 +0200
+
 kdesignerplugin (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
