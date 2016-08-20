@@ -1,18 +1,12 @@
-kdesignerplugin (5.25.0-1~2.gbpe65ca6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e65ca681f42452fe9c67026048aae46e1cdce55f **
+kdesignerplugin (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @4da40e4abc7054fe86d93faf6f6ff191986adf6c **
-
-  * Update build-deps and deps with the info from cmake
-  * UNRELEASED
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 23:00:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:47:57 +0200
 
 kdesignerplugin (5.23.0-1) unstable; urgency=medium
 
