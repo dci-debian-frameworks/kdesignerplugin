@@ -44,7 +44,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  in Qt Designer and Qt Creator.
  .
  Part of KDE Frameworks.
-Breaks: libkf5kdelibs4support-dev (<< 5.25)
+Breaks: libkf5kdelibs4support-dev (<< 5.26)
 
 Package: kdesignerplugin
 Architecture: any
