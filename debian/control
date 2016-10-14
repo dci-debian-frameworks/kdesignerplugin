@@ -5,21 +5,22 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
                kdoctools-dev (>= 5.25.0~),
-               kio-dev (>= 5.25.0~),
-               libkf5completion-dev (>= 5.25.0~),
-               libkf5config-dev (>= 5.25.0~),
-               libkf5configwidgets-dev (>= 5.25.0~),
-               libkf5coreaddons-dev (>= 5.25.0~),
-               libkf5iconthemes-dev (>= 5.25.0~),
-               libkf5itemviews-dev (>= 5.25.0~),
-               libkf5plotting-dev (>= 5.25.0~),
-               libkf5sonnet-dev (>= 5.25.0~),
-               libkf5textwidgets-dev (>= 5.25.0~),
-               libkf5webkit-dev (>= 5.25.0~),
-               libkf5widgetsaddons-dev (>= 5.25.0~),
-               libkf5xmlgui-dev (>= 5.25.0~),
+               kio-dev (>= 5.26.0~),
+               libkf5completion-dev (>= 5.26.0~),
+               libkf5config-dev (>= 5.26.0~),
+               libkf5configwidgets-dev (>= 5.26.0~),
+               libkf5coreaddons-dev (>= 5.26.0~),
+               libkf5doctools-dev (>= 5.26.0~),
+               libkf5iconthemes-dev (>= 5.26.0~),
+               libkf5itemviews-dev (>= 5.26.0~),
+               libkf5plotting-dev (>= 5.26.0~),
+               libkf5sonnet-dev (>= 5.26.0~),
+               libkf5textwidgets-dev (>= 5.26.0~),
+               libkf5webkit-dev (>= 5.26.0~),
+               libkf5widgetsaddons-dev (>= 5.26.0~),
+               libkf5xmlgui-dev (>= 5.26.0~),
                libqt5webkit5-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~),
@@ -43,7 +44,7 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  in Qt Designer and Qt Creator.
  .
  Part of KDE Frameworks.
-Breaks: libkf5kdelibs4support-dev (<< 5.25)
+Breaks: libkf5kdelibs4support-dev (<< 5.26)
 
 Package: kdesignerplugin
 Architecture: any
