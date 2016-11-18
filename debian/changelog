@@ -1,10 +1,13 @@
-kdesignerplugin (5.28.0-1~1.gbpc4997f) UNRELEASED; urgency=medium
+kdesignerplugin (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c4997f644570acf00cefc49f056418ccc8316b3b **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 16 Nov 2016 10:00:47 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:17 +0100
 
 kdesignerplugin (5.27.0-1) unstable; urgency=medium
 
