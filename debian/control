@@ -27,31 +27,18 @@ Build-Depends: cmake (>= 3.0~),
                qttools5-dev (>= 5.7.0~),
                qttools5-dev-tools (>= 5.4),
                xauth,
-               xvfb
+               xvfb,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kdesignerplugin
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesignerplugin.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdesignerplugin.git
-
-Package: kgendesignerplugin
-Section: libdevel
-Architecture: any
-Depends: kdesignerplugin-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Integration of KF5 widgets in Qt Designer/Creator
- kgendesignerplugin can be used to generate plugins for widgets
- in Qt Designer and Qt Creator.
- .
- Part of KDE Frameworks.
-Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: kdesignerplugin
 Architecture: any
 Multi-Arch: same
 Depends: kdesignerplugin-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Integration of KF5 widgets in Qt Designer/Creator
  This framework provides plugins for Qt Designer that allow
  it to display the widgets provided by various KDE Frameworks,
@@ -73,3 +60,16 @@ Description: Integration of KF5 widgets in Qt Designer/Creator
  Part of KDE Frameworks.
  .
  This package contains images and translations.
+
+Package: kgendesignerplugin
+Section: libdevel
+Architecture: any
+Depends: kdesignerplugin-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Integration of KF5 widgets in Qt Designer/Creator
+ kgendesignerplugin can be used to generate plugins for widgets
+ in Qt Designer and Qt Creator.
+ .
+ Part of KDE Frameworks.
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
